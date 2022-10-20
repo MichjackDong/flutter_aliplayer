@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6bba52a9-8350-47fb-bb0f-f90dff681fa4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2Fy6XRewMf74gmYKtWzinus47At" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bba52a9-8350-47fb-bb0f-f90dff681fa4" name="Default Changelist" comment="" />
+      <created>1665452019918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665452019918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1329" height="431" key="GridCell.Tab.0.bottom" timestamp="1666067961201">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state width="1329" height="443" key="GridCell.Tab.0.bottom/62.25.1378.875@62.25.1378.875" timestamp="1666066841974" />
+    <state width="1329" height="431" key="GridCell.Tab.0.bottom/67.25.1373.875@67.25.1373.875" timestamp="1666067961201" />
+    <state width="1329" height="431" key="GridCell.Tab.0.center" timestamp="1666067961201">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state width="1329" height="443" key="GridCell.Tab.0.center/62.25.1378.875@62.25.1378.875" timestamp="1666066841973" />
+    <state width="1329" height="431" key="GridCell.Tab.0.center/67.25.1373.875@67.25.1373.875" timestamp="1666067961201" />
+    <state width="1329" height="431" key="GridCell.Tab.0.left" timestamp="1666067961201">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state width="1329" height="443" key="GridCell.Tab.0.left/62.25.1378.875@62.25.1378.875" timestamp="1666066841973" />
+    <state width="1329" height="431" key="GridCell.Tab.0.left/67.25.1373.875@67.25.1373.875" timestamp="1666067961201" />
+    <state width="1329" height="431" key="GridCell.Tab.0.right" timestamp="1666067961201">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state width="1329" height="443" key="GridCell.Tab.0.right/62.25.1378.875@62.25.1378.875" timestamp="1666066841973" />
+    <state width="1329" height="431" key="GridCell.Tab.0.right/67.25.1373.875@67.25.1373.875" timestamp="1666067961201" />
+    <state x="288" y="195" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1665473727940">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state x="288" y="195" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.25.1373.875@67.25.1373.875" timestamp="1665473727940" />
+    <state x="460" y="217" width="597" height="490" key="find.popup" timestamp="1666066968030">
+      <screen x="62" y="25" width="1378" height="875" />
+    </state>
+    <state x="460" y="217" width="597" height="490" key="find.popup/62.25.1378.875@62.25.1378.875" timestamp="1666066968030" />
+    <state x="413" y="214" key="search.everywhere.popup" timestamp="1666067158869">
+      <screen x="67" y="25" width="1373" height="875" />
+    </state>
+    <state x="413" y="214" key="search.everywhere.popup/67.25.1373.875@67.25.1373.875" timestamp="1666067158869" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/page/download_page.dart</url>
+          <line>58</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/widget/aliyun_download_dialog.dart</url>
+          <line>214</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/util/aliyun_download_manager.dart</url>
+          <line>91</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

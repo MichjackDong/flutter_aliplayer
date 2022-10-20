@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/qrcode_reader/ios/Classes/QRCodeReaderPlugin.h

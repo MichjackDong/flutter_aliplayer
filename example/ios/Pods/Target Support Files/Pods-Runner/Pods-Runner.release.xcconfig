@@ -1,0 +1,16 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AliPlayerSDK_iOS" "${PODS_ROOT}/AliPlayerSDK_iOS_ARTC" "${PODS_ROOT}/RtsSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/MJExtension" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/Toast" "${PODS_ROOT}/Headers/Public/connectivity" "${PODS_ROOT}/Headers/Public/flutter_aliplayer" "${PODS_ROOT}/Headers/Public/fluttertoast" "${PODS_ROOT}/Headers/Public/path_provider" "${PODS_ROOT}/Headers/Public/qrcode_reader" "${PODS_ROOT}/Headers/Public/sqflite"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/Reachability" "${PODS_CONFIGURATION_BUILD_DIR}/Toast" "${PODS_CONFIGURATION_BUILD_DIR}/connectivity" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_aliplayer" "${PODS_CONFIGURATION_BUILD_DIR}/fluttertoast" "${PODS_CONFIGURATION_BUILD_DIR}/path_provider" "${PODS_CONFIGURATION_BUILD_DIR}/qrcode_reader" "${PODS_CONFIGURATION_BUILD_DIR}/sqflite"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/connectivity/connectivity.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/flutter_aliplayer/flutter_aliplayer.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/path_provider/path_provider.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/sqflite/sqflite.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"MJExtension" -l"Reachability" -l"Toast" -l"connectivity" -l"flutter_aliplayer" -l"fluttertoast" -l"path_provider" -l"qrcode_reader" -l"sqflite" -l"sqlite3" -framework "AVFoundation" -framework "AliyunMediaDownloader" -framework "AliyunPlayer" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "MediaPlayer" -framework "OpenGLES" -framework "QuartzCore" -framework "RtsSDK" -framework "SystemConfiguration" -framework "VideoToolbox" -framework "alivcffmpeg" -framework "artcSource"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/connectivity/connectivity.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/flutter_aliplayer/flutter_aliplayer.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/path_provider/path_provider.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/sqflite/sqflite.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

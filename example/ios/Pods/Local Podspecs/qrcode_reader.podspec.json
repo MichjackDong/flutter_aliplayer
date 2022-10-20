@@ -1,0 +1,26 @@
+{
+  "name": "qrcode_reader",
+  "version": "0.0.1",
+  "summary": "A flutter plugin for reader qrcodes.",
+  "description": "A new flutter plugin project.",
+  "homepage": "https://github.com/johanhenselmans/flutter_qrcode_reader",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Netsense": "johan@netsense.nl"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  }
+}

@@ -1,0 +1,6 @@
+module flutter_aliplayer {
+  umbrella header "flutter_aliplayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
